@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wishing Well</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+</style>
+</head>
+<body>
+	<div>
+		<h1 id="headline" >Wishing Well</h1>
+	<div>
+	<div>
+		<a href="Home.html" target="_self" class="home">Home</a>
+	</div>
+	<div>
+		<a href="events.html" target="_self" class="events">Events</a>
+	</div>
+	<div>
+		<a href="bounceback.html" target="_self" class="bounceback">Bounce Back</a>
+	</div>
+	<div>
+		<a href="joinus.html" target="_self" class="joinus">Join Us</a>
+	</div>
+	<div>
+		<a href="feedback.html" target="_self" class="feedback">Feedback</a>
+	</div>
+	<div>
+		<a href="donate.html" target="_self" class="donate">Donate</a>
+	</div>
+	<div>
+		<a href="aboutus.html" target="_self" class="aboutus">About Us</a>
+	</div>
+	<hr>
+	<fieldset>
+	<form>
+		Name  <input type="textbox" name="name" value="" placeholder="Enter your name" autofocus required>
+		<br>
+		<br>
+		Gender <input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<br>
+		<br>
+		Age <input type="number" name="age" min="10" max="30" >
+		<br>
+		<br>
+		Contact type <input type="textbox" name="contacttype" placeholder="E-mail / Phone number">
+		<br>
+		<br>
+		Perferable language  <select>
+		<option value="Select language">Select</option>
+		<option value="Hindi">Hindi</option>
+		<option value="English">English</option>
+		<option value="Marathi">Marathi</option>
+        </select>
+        <br>
+        <h5>Select the time slot by selecting weekday and time</h5>
+        Weekday  <select>
+        	<option value="select weekdays">Select</option>
+        	<option value="Sunday">Sunday</option>
+        	<option value="Sunday">Monday</option>
+        	<option value="Sunday">Tuesday</option>
+        	<option value="Sunday">Wednesday</option>
+        	<option value="Sunday">Thursday</option>
+        	<option value="Sunday">Friday</option>
+        	<option value="Sunday">Saturday</option>
+        </select>
+        <br>
+        <br>
+        Timeslot <select>
+        	<option value="Select timeslot">Select</option>
+        	<option value="1">1</option>
+        	<option value="2">2</option>
+        	<option value="3">3</option>
+        	<option value="4">4</option>
+        	<option value="5">5</option>
+        	<option value="6">6</option>
+        	<option value="7">7</option>
+        	<option value="8">8</option>
+        	<option value="9">9</option>
+        	<option value="10">10</option>
+        	<option value="11">11</option>
+        	<option value="12">12</option>
+        </select>
+        <select>
+        	<option value="pm">pm</option>
+        </select>
+        <h5>Explain your issue below in short</h5>
+        <textarea name="problemdescription" value="" placeholder="How are you feeling?" maxlength="1000"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="Information verification">I hereby declare that the above provided information is correct and if found incorrect then strict action might be taken.
+        <br>
+        <br>
+        <input type="submit" name="submit">
+        <input type="reset" name="Reset">
+	</form>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+.joinus{
+		text-decoration: none;
+		background: transparent;
+		width: 19.28rem;
+		text-align: center;
+		color: white;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+		}
+.joinus:hover{
+	background:white;
+	color: black;
+	border-radius: 1rem;
+}
+
+.events{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white ;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+	    }
+
+.events:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+}
+
+.feedback{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white ;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+		}
+
+.feedback:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+}
+
+.donate{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white ;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+		}
+
+.donate:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+}
+
+.aboutus{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white;
+		height: 3rem;
+		font-family: Roboto Mono;
+		margin-right: auto;
+		font-size: 1.5rem;
+		float: left;
+		}
+
+.aboutus:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+}
+
+.bounceback{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white ;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+		}
+.bounceback:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+	border-radius: 1rem;
+}
+
+#headline{
+		text-align: center;
+		background: transparent;
+		color: white;
+		margin-top: 0rem; 
+		margin-bottom: 0rem;
+		margin-left: 0rem; 
+		margin-right: 0rem;
+		height: 3rem;
+		font-family: monospace;
+		font-size: 3rem;
+		padding-bottom: 0.5rem;
+		border-radius: 1rem;
+	}
+		
+.home{
+		text-decoration: none;
+		width: 19.28rem;
+		background: transparent;
+		text-align: center;
+		color: white;
+		height: 3rem;
+		font-family: Roboto Mono;
+		font-size: 1.5rem;
+		float: left;
+		}
+
+.home:hover{
+	background: white;
+	color: black;
+	border-radius: 1rem;
+}
+
+textarea{
+	width: 60rem;
+	height: 10rem;
+	border-color: white ;
+	border-radius: 0.8rem;
+	border-width: 0.4rem;
+	background-color: lightblue;
+}
+
+body{
+	background-color:white;
+	background-image: url("images/exp.jpg");
+	background-size: cover;
+	background-repeat: no repeat;
+}
+.fs{
+	border-radius: 2rem;
+	border-collapse: 0.rem;
+	border-color: white;
+	border-width: 0.5rem;
+	height: 50rem;
+	padding-top: 3rem;
+	border-left-width:-3rem;
+
+}
+.subform{
+	float: right;
+	background-image: url("images/grn.jpg");
+	background-size: contain;
+	background-repeat: no repeat;
+	border-radius: 2rem;
+}
+
+
+html { font-size: 62.5%;
+     }
